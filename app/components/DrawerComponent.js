@@ -70,6 +70,23 @@ const DrawerComponent = ({ isOpen, onClose, currentValue, array }) => {
               </UnorderedList>
             </DrawerBody>
           </DrawerBody>
+          
+          <DrawerBody>
+            <DrawerHeader>
+              <Text fontSize="2xl" fontWeight="bold" mb={2} mt={2}>
+                Servicios:
+              </Text>
+            </DrawerHeader>
+
+            <UnorderedList>
+              {currentValue.servicio &&
+                currentValue.servicio.map((service, index) => (
+                  <ListItem key={index}>{service}</ListItem>
+                ))}
+            </UnorderedList>
+          </DrawerBody>
+
+
 
           <DrawerFooter>
             <Button variant="solid" size={"lg"} mr={3} onClick={onClose}>
