@@ -35,10 +35,10 @@ export const puntos =[
     {id:10, nombre:"rakkar Hidromiel", coordenadas: [-39.82687211885121, -73.22671976266108],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}]},
 
-    {id:11, nombre:"Cerveza Schenke Brüder", coordenadas: [-39.82687211885121, -73.22671976266108],
+    {id:11, nombre:"Cerveza Schenke Brüder", coordenadas: [-39.77481266517584, -73.1938453354861],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}]},
 
-    {id:12, nombre:"Cerveza 3 Puentes", coordenadas: [-39.82687211885121, -73.22671976266108],
+    {id:12, nombre:"Cerveza 3 Puentes", coordenadas: [-39.83504528204056, -73.20354547544007],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}]},
     
     {id:13, nombre:"La Bota Cervecera ", coordenadas: [-39.81289639386381, -73.24800577348306],
