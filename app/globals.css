@@ -7,9 +7,10 @@
 
 .navegacion {
   background-color: #7e7805fa; /* Color de fondo */
+  background-image: url("../public/background2.jpg");
   background-repeat: repeat-x;
   background-size: cover;
-  background-position: center center; /* Centrar la imagen de fondo */
+  background-position: center; /* Centrar la imagen de fondo */
   color: #505050;
   padding: 0.50% 1% 0.5% 1%; /* Relleno, 10 arriba y abajo, 5 izquierda y derecha */
   display: flex; /* Mostrar como Flexbox */
@@ -70,7 +71,7 @@
 .Menu{
   padding: 12px 24px;
   font-size: 16px;
-  background-color: #b32897; 
+  background-color: #f3a847; 
   color: white;
   border: none;
   border-radius: 4px;
@@ -79,7 +80,7 @@
 }
 
 .Menu:hover {
-  background-color: #b32897;
+  background-color: #f3a847;
 }
 
 
