@@ -73,15 +73,15 @@ const DrawerComponent = ({ isOpen, onClose, currentValue, array }) => {
           
           <DrawerBody>
             <DrawerHeader>
-              <Text fontSize="2xl" fontWeight="bold" mb={2} mt={2}>
-                Servicios:
+              <Text fontSize="2xl" fontWeight="bold">
+                Premios:
               </Text>
             </DrawerHeader>
 
             <UnorderedList>
-              {currentValue.servicio &&
-                currentValue.servicio.map((service, index) => (
-                  <ListItem key={index}>{service}</ListItem>
+              {currentValue.premios &&
+                currentValue.premios.map((service, index) => (
+                  <ListItem key={index} >{service}</ListItem>
                 ))}
             </UnorderedList>
           </DrawerBody>
