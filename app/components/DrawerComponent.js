@@ -42,7 +42,7 @@ const DrawerComponent = ({ isOpen, onClose, currentValue, array }) => {
       <Drawer finalFocusRef={btnOpen} isOpen={isOpen} placement="right" onClose={onClose} size={"md"}>
         <DrawerOverlay />
         <DrawerContent className="Drawer">
-          <DrawerCloseButton />
+          <DrawerCloseButton className="buttonRight"/>
 
           <DrawerHeader className="drawer-title" fontSize={"3xl"}>
             {currentValue.nombre}
@@ -80,10 +80,10 @@ const DrawerComponent = ({ isOpen, onClose, currentValue, array }) => {
               </Text>
               </Box>
             <UnorderedList>
-              {currentValue.premios &&
+              {currentValue.premios != null ? 
                 currentValue.premios.map((service, index) => (
                   <ListItem key={index} >{service}</ListItem>
-                ))}
+                )):<Text>No ha ganado ningun premio</Text>}
             </UnorderedList>
             <Box>
               <Text fontSize="2xl" fontWeight="bold">
@@ -110,7 +110,7 @@ const DrawerComponent = ({ isOpen, onClose, currentValue, array }) => {
           </DrawerBody>     
                  
           <DrawerFooter>
-            <Button variant="solid" size={"lg"} mr={3} onClick={onClose}>
+            <Button className = "buttonBack" variant="outline" size={"md"} mr={2} onClick={onClose}>
               Volver
             </Button>
           </DrawerFooter>

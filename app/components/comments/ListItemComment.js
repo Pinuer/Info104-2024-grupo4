@@ -4,7 +4,7 @@ const ListItemComment = ({ comentario }) => {
   const {comentario: comment, usuario} = comentario;
 
   return (
-    <Box mb={3} borderRadius='5px' paddingTop={2} paddingBottom={2} paddingLeft={5}>
+    <Box mb={3} borderRadius='5px' bg="#4a494f" paddingTop={2} paddingBottom={2} paddingLeft={5}>
       {/* ID's */}
       <Box >
         <Text >

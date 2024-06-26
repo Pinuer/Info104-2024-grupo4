@@ -114,6 +114,10 @@
   background-color: rgb(159, 226, 163);
 }
 
+.buttonRight{
+  margin-top: 5%;
+  margin-left: 4%;
+}
 .Drawer {
   background-image: url("../public/Cer3.jpg");
   color: #f0ebeb;
@@ -128,4 +132,19 @@
 }
 .drawerList {
   margin-left: 4%;
+}
+.buttonBack{
+  color: white;
+  margin-bottom: 5%;
+  margin-left: 4%;
+}
+.comment{
+  z-index: 99;
+  margin-left: 2.5%;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:gray;
+  color: black;
 }

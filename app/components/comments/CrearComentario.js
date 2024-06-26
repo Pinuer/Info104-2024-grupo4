@@ -6,7 +6,8 @@ import {
   Menu, 
   MenuButton,
   MenuList,
-  Box
+  Box,
+  background
 } from "@chakra-ui/react";
 
 const CrearComentario = ({
@@ -48,15 +49,15 @@ const CrearComentario = ({
   return (
     <>
       <Menu size={"s"}>
-        <MenuButton as={Button} mb={2}>
+        <MenuButton as={Button} mb={2} variant="solid" backgroundColor="white" _active={{backgroundColor: "gray"}}>
         Crear Comentario
         </MenuButton>
 
-        <MenuList className="CrearComentarios">
+        <MenuList className="comment">
           <form onSubmit={handleSubmit}>
             <Box textAlign={"center"}>
-            <Input className="CrearComentariosInput" placeholder="Usuario" value={usuario} onChange={(e) => setUsuario(e.target.value)} />
-            <Textarea className="CrearComentariosInput" placeholder="Comentario" value={comentario} onChange={(e) => setComentario(e.target.value)} />
+            <Input placeholder="Usuario" bg="white" value={usuario} onChange={(e) => setUsuario(e.target.value)} />
+            <Textarea placeholder="Comentario" bg="white" resize="none" value={comentario} onChange={(e) => setComentario(e.target.value)} />
             <Button type="submit">Crear</Button>
             </Box>
           </form>
