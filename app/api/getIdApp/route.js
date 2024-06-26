@@ -11,7 +11,10 @@ export async function GET(request) {
   const idItem = searchParams.get("idItem");
 
   const response = await fetch(
-    API_URL + `/api/comentarios?${idApp ? `idApp=${idApp}` : ""}${idItem ? `&idItem=${idItem}` : ""}`, {cache:'no-store'}
+    API_URL + `/api/comentarios?${idApp ? `idApp=${idApp}` : ""}${idItem ? `&idItem=${idItem}` : ""}`, {cache:'no-store'} ,
+    {
+      next: { revalidate: 10 },
+    }
   );
 
   const data = await response.json();
