@@ -15,7 +15,7 @@ const ListItemComment = ({ comentario }) => {
       {/* COMENTARIO */}
       <Box >
         <Text>
-          <b >comentario: </b>
+          <b >Comentario: </b>
           {comment}
         </Text>
       </Box>

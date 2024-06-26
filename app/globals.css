@@ -123,6 +123,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* Adjust the top margin as needed */
+  margin-top: 5%; /* Adjust the top margin as needed */
   text-align: center;
+}
+.drawerList {
+  margin-left: 4%;
 }

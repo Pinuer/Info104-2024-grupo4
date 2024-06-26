@@ -12,7 +12,8 @@ import {
   UnorderedList,
   Text,
   Link,
-  Box
+  Box,
+  Stack
 } from "@chakra-ui/react";
 import { useRef, useState, useEffect } from "react";
 import ListComments from "./comments/ListComments";
@@ -55,13 +56,13 @@ const DrawerComponent = ({ isOpen, onClose, currentValue, array }) => {
             </Text>
           )}
 
-          <DrawerBody>
-            <DrawerHeader>
+          <DrawerBody className="drawerList">
+            <Stack >
+              <Box>
               <Text fontSize="2xl" fontWeight="bold" mb={1} mt={1}>
                 Tipos de Cerveza:
               </Text>
-            </DrawerHeader>
-            <DrawerBody>
+              </Box>
               <UnorderedList>
                 {array.map((info, index) => {
                   const state = info.estado;
@@ -73,32 +74,23 @@ const DrawerComponent = ({ isOpen, onClose, currentValue, array }) => {
                   return null;
                 })}
               </UnorderedList>
-            </DrawerBody>
-          </DrawerBody>
-          
-          <DrawerBody>
-            <DrawerHeader>
+              <Box>
               <Text fontSize="2xl" fontWeight="bold">
                 Premios:
               </Text>
-            </DrawerHeader>
-
+              </Box>
             <UnorderedList>
               {currentValue.premios &&
                 currentValue.premios.map((service, index) => (
                   <ListItem key={index} >{service}</ListItem>
                 ))}
             </UnorderedList>
-          </DrawerBody>
-
-          <DrawerBody>
-            <DrawerHeader>
+            <Box>
               <Text fontSize="2xl" fontWeight="bold">
                 Comentarios:
               </Text>
-            </DrawerHeader>
+            </Box>
             <UnorderedList>
-          
               <CrearComentario
                 usuario={usuario}
                 setUsuario={setUsuario}
@@ -114,8 +106,9 @@ const DrawerComponent = ({ isOpen, onClose, currentValue, array }) => {
                 <ListComments comentarios={comentarios} />
               </Box>   
             </UnorderedList>
+            </Stack> 
           </DrawerBody>     
-
+                 
           <DrawerFooter>
             <Button variant="solid" size={"lg"} mr={3} onClick={onClose}>
               Volver
