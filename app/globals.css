@@ -41,18 +41,20 @@
 
 .titulo{
   font-family: "stentiga";
-  color: #0a2d20; /*troleito*/
+  color: #ffffff; 
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
   font-size: 2vi;
 }
 
 .leyenda li{
-  color: #1f321e;
-  font-size: 1.6vi;
+  color: #ffffff;
+  -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+  font-size: 1.6vi; 
   margin-left: 5%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.leyenda p{
+.leyenda p{ 
   display: flex;
   font-size: 0.9vi;
   flex-direction: column;
@@ -65,8 +67,8 @@
   display:flex;
   flex-wrap: wrap;
   z-index: 0;
-  width: 100vw; /* antes 95*/
-  height: 100vh; /* antes 80*/
+  width: 100vw;
+  height: 100vh;
 }
 .Menu{
   padding: 12px 24px;
