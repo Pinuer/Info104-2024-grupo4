@@ -1,3 +1,4 @@
+"use client"
 import "@/app/globals.css";
 import { 
   Input,
@@ -35,8 +36,7 @@ const CrearComentario = ({
 
     const data = await response.json();
     console.log(data);
-    alert("Comentario creado");
-  };
+   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -58,7 +58,7 @@ const CrearComentario = ({
             <Box textAlign={"center"}>
             <Input placeholder="Usuario" bg="white" value={usuario} onChange={(e) => setUsuario(e.target.value)} />
             <Textarea placeholder="Comentario" bg="white" resize="none" value={comentario} onChange={(e) => setComentario(e.target.value)} />
-            <Button type="submit" >Crear</Button>
+            <Button type="submit">Crear</Button>
             </Box>
           </form>
         </MenuList>
