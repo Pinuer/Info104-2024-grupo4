@@ -3,21 +3,27 @@ import { NextResponse } from "next/server";
 export const puntos =[
     {id: 1, nombre : "La Cervecería Kunstmann ", coordenadas : [-39.836583, -73.278583], 
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/%22La+Cervecer%C3%ADa%22+Kunstmann/@-39.8368501,-73.2808802,17z/data=!3m1!4b1!4m6!3m5!1s0x9615f1e07207c325:0xe36903a999717487!8m2!3d-39.8368501!4d-73.2783053!16s%2Fg%2F11b7q5fnmy?entry=ttu"},
+    linkD:"https://www.google.com/maps/place/%22La+Cervecer%C3%ADa%22+Kunstmann/@-39.8368501,-73.2808802,17z/data=!3m1!4b1!4m6!3m5!1s0x9615f1e07207c325:0xe36903a999717487!8m2!3d-39.8368501!4d-73.2783053!16s%2Fg%2F11b7q5fnmy?entry=ttu",
+    premios: ["Medalla de Plata en la categoría Session con su Session IPA",
+        "Medalla de Plata en la categoría Hoppy Pilsner",
+        "Medalla de Oro en la Copa Cervezas de América",
+        "Medalla de Oro en la competencia Copa Cervezas de América 2023",
+        "Medalla de Bronce English Style Brown Ale",
+        "Mejor diseño de botella y embalaje para Kunstmann Barley Wine​"
+    ]},
     
     {id:2, nombre:"Cerveceria Nothus", coordenadas: [-39.824107, -73.238481],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}], 
     linkD:"https://www.google.com/maps/place/Cervecer%C3%ADa+Nothus/@-39.8242023,-73.2410789,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef0e551fe46f:0xfa8f800ffdf30f2c!8m2!3d-39.8242023!4d-73.238504!16s%2Fg%2F11f7n4qfrm?entry=ttu",
-    premios:["Plata Copa Cervezas de América, Chile 2022 (Etapa Nacional)",
-        "Plata Copa Tayrona, Colombia 2023", 
-        "Plata Copa Austral, Argentina 2023" ,
-        "Oro Copa Cervezas de América, Chile 2022 (Etapa Final)",
-        "Bronce Copa Cervezas de América 2022 (Etapa Nacional)", 
-        "Plata Copa Mitad del Mundo, Ecuador 2023",
-        "Plata Mejor Cerveza de América, Copa Cervezas de América, Chile 2023",
-        "Oro Mejor Cerveza de Chile, Copa Cervezas de América, Chile 2023",     
-        "Oro Copa Cervezas de América, Chile 2023", 
-        "Plata Copa Austral, Argentina 2023" ]},
+    premios:["Medalla de Plata Copa Cervezas de América",
+        "Medalla de Plata Copa Tayrona", 
+        "Medalla de Plata Copa Austral",
+        "Medalla de Oro Copa Cervezas de América",
+        "Medalla de Bronce Copa Cervezas de América ", 
+        "Medalla de Plata Mejor Cerveza de América, Copa Cervezas de América",
+        "Medalla de Oro Mejor Cerveza de Chile, Copa Cervezas de América",     
+        "Medalla Oro Copa Cervezas de América"
+    ]},
 
     
     {id:3, nombre:"Cerveceria Calle Calle", coordenadas: [-39.855059, -73.189059],
