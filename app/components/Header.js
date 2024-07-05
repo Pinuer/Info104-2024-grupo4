@@ -11,7 +11,7 @@ export default function Header() {
         </div>
       </div>
       <p className="creditos">
-        Desarrollado por Felipe Brana, Ninoska Toledo, Luis Pinuer y grupo 4 2° semestre 2023</p>
+        Desarrollado por Felipe Brana, Ninoska Toledo, Luis Pinuer y Grupo Reciclaje 2023</p>
       </div>
   );
 }
