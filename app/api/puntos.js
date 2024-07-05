@@ -114,10 +114,28 @@ export const puntos =[
 
     {id:18, nombre:"Barbudo Growler", coordenadas:[-39.817147697805694, -73.24293788979706],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/Barbudo+Growler/@-39.8173002,-73.2454806,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef857ee885df:0x58a1a8360dbbc1b4!8m2!3d-39.8173043!4d-73.2429057!16s%2Fg%2F11h6n4stfx?hl=es&entry=ttu"}
+    linkD:"https://www.google.com/maps/place/Barbudo+Growler/@-39.8173002,-73.2454806,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef857ee885df:0x58a1a8360dbbc1b4!8m2!3d-39.8173043!4d-73.2429057!16s%2Fg%2F11h6n4stfx?hl=es&entry=ttu"},
+
+    {id:19, nombre:"Cervecería Valdilluvia", coordenadas:[-39.82396865669709, -73.21892697445966],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 0}],
+    linkD:"https://maps.app.goo.gl/fmtLbysvmrCN5Wn46"
+    },
+
+    {id:20, nombre:"Bünemann´s SPELUNKE", coordenadas:[-39.8076187222947, -73.24982602329263],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://maps.app.goo.gl/B6B9J2oiAL73jbo89"
+    },
+
+    {id:21, nombre:"Cerveza Nebú", coordenadas:[-39.82396865669709, -73.2106872281042],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 0}],
+    linkD:"https://maps.app.goo.gl/ZZrd9omYHZeGjd5e6",
+    premios:["Medalla Bronce Copa America",
+        "Medalla Bronce Copa America Summer Golden"]}
+
 
 ];
 
 export async function GET(){
     return new NextResponse.json(puntos);
 }
+
