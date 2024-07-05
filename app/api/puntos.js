@@ -149,8 +149,11 @@ export const puntos =[
 
     {id:25, nombre:"MYSTIKA CERVECERIA & PIZZERIA", coordenadas:[-39.83566519554538, -73.20312568496452],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://maps.app.goo.gl/NM7wxM4wWQmAq7Y69"  
-    },
+    linkD:"https://maps.app.goo.gl/NM7wxM4wWQmAq7Y69",
+    premios:["Medalla Oro Copa Cervezas de America 2023",
+        "Medalla Bronce Copa Patagon",
+        "Medalla Oro Copa Fermentados",
+        "Medalla Bronce Copa de los volcanes"]},
 
     {id:26, nombre:"Cervecería Valdilluvia",coordenadas:[-39.834012349372394, -73.21895006095973],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],

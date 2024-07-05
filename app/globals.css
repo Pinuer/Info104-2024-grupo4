@@ -42,7 +42,7 @@
 .titulo{
   font-size: 1.5em;
   font-weight: bold;
-  color: #ffffff; 
+  color: #ffffff; /* color:#eff16a; */
   -webkit-text-stroke: 0.7px rgb(0, 0, 0);
   font-size: 2vi;
 }
