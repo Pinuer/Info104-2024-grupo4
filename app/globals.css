@@ -129,7 +129,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5%; /* Adjust the top margin as needed */
+  margin-top: 5%; 
   text-align: center;
 }
 .drawerList {

@@ -77,7 +77,7 @@ export const puntos =[
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 0}],
     linkD:"https://www.google.com/maps/place/Cerveza+3+Puentes/@-39.8377206,-73.2060705,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef3990a57233:0x8505b5beb6122d7b!8m2!3d-39.8377206!4d-73.2034902!16s%2Fg%2F11flgbw9ww?entry=ttu"},
 
-    {id:13, nombre:"La Bota Cervecera ", coordenadas: [-39.81289639386381, -73.24800577348306],
+    {id:13, nombre:"La Bota Cervecera ", coordenadas: [-39.81413004966466, -73.25540177962908],
     tipos : [{tipo : "Lager", estado : 0}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
     linkD:"https://www.google.com/maps/place/La+Bota+Cervecera/@-39.8147735,-73.2577225,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef240dea5907:0x5758e8ad55600e30!8m2!3d-39.8147735!4d-73.2551422!16s%2Fg%2F11fk3yl1bj?entry=ttu"},
 
@@ -130,7 +130,28 @@ export const puntos =[
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 0}],
     linkD:"https://maps.app.goo.gl/ZZrd9omYHZeGjd5e6",
     premios:["Medalla Bronce Copa America",
-        "Medalla Bronce Copa America Summer Golden"]}
+        "Medalla Bronce Copa America Summer Golden"]},
+
+    {id:22, nombre:"cervecería Tata´s beer", coordenadas:[-39.81342448017055, -73.20063740618045],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://maps.app.goo.gl/xAKbhNMFvFujuDug8"
+    },
+
+    {id:23, nombre:"Cerveza Twins", coordenadas:[-39.823781615355166, -73.20973865997703],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://maps.app.goo.gl/WFyKpDiZW6EHa1xm9"
+    },
+
+    {id:24, nombre:"Cerveceria Fantasma", coordenadas:[-39.830241421942645, -73.23394291469664],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://maps.app.goo.gl/1gMqpDTCs6kEbN6E6"  
+    },
+
+    {id:25, nombre:"MYSTIKA CERVECERIA & PIZZERIA", coordenadas:[-39.83566519554538, -73.20312568496452],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://maps.app.goo.gl/NM7wxM4wWQmAq7Y69"  
+    }
+    
 
 
 ];
