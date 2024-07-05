@@ -95,25 +95,25 @@
 .checkboxSinFiltrar{
   margin-top: 1%;
   margin-bottom: 1%;
-  background-color: rgb(226, 132, 149);
+  background-color: #d4a24e;
 }
 
 .checkboxBock {
   margin-top: 1%;
   margin-bottom: 1%;
-  background-color: rgb(129, 149, 228);
+  background-color: #9f5c21;
 }
 
 .checkboxPaleAle {
   margin-top: 1%;
   margin-bottom: 1%;
-  background-color: rgb(233, 171, 135);
+  background-color: #c2894b;
 }
 
 .checkboxTrigo{
   margin-top: 1%;
   margin-bottom: 1%;
-  background-color: rgb(159, 226, 163);
+  background-color: #e0d47b;
 }
 
 .buttonRight{

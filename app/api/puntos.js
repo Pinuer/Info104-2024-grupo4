@@ -54,23 +54,19 @@ export const puntos =[
 
     {id:7, nombre:"El Regreso Beer Company", coordenadas: [-39.819660127756805, -73.24644226089781],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/El+Regreso+Beer+Company/@-39.8194331,-73.2518908,17z/data=!4m6!3m5!1s0x9615ef67d9d57b29:0x8511798f794376fb!8m2!3d-39.8198217!4d-73.2462508!16s%2Fg%2F11kqr_pqzn?entry=ttu",
-    premios:[]},
+    linkD:"https://www.google.com/maps/place/El+Regreso+Beer+Company/@-39.8194331,-73.2518908,17z/data=!4m6!3m5!1s0x9615ef67d9d57b29:0x8511798f794376fb!8m2!3d-39.8198217!4d-73.2462508!16s%2Fg%2F11kqr_pqzn?entry=ttu"},
 
     {id:8, nombre:"Cerveza carva", coordenadas: [-39.834844724481535, -73.2187401575215],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/Cerveza+carva/@-39.8349889,-73.221299,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef253ada5a3d:0x6a072d3c207b87c5!8m2!3d-39.8349889!4d-73.2187187!16s%2Fg%2F11fj061jms?entry=ttu",
-    premios:[]},
+    linkD:"https://www.google.com/maps/place/Cerveza+carva/@-39.8349889,-73.221299,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef253ada5a3d:0x6a072d3c207b87c5!8m2!3d-39.8349889!4d-73.2187187!16s%2Fg%2F11fj061jms?entry=ttu"},
 
     {id:9, nombre:"Cerveza Totem", coordenadas: [-39.85027684666218, -73.19666409984868],
-    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/Cerveza+Totem/@-39.8504457,-73.1992444,17z/data=!3m1!4b1!4m6!3m5!1s0x9615eff07eed37b7:0xf0b946a74affaf24!8m2!3d-39.8504457!4d-73.1966641!16s%2Fg%2F11sbdbqgbd?entry=ttu",
-    premios:[]},
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 0}],
+    linkD:"https://www.google.com/maps/place/Cerveza+Totem/@-39.8504457,-73.1992444,17z/data=!3m1!4b1!4m6!3m5!1s0x9615eff07eed37b7:0xf0b946a74affaf24!8m2!3d-39.8504457!4d-73.1966641!16s%2Fg%2F11sbdbqgbd?entry=ttu"},
 
     {id:10, nombre:"Drakkar Hidromiel", coordenadas: [-39.82687211885121, -73.22671976266108],
-    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/Drakkar+Hidromiel/@-39.8309865,-73.2282931,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef81512fcdb3:0xb78bfc9ff1b44b4e!8m2!3d-39.8309865!4d-73.2257128!16s%2Fg%2F11lfzpt_vc?entry=ttu",
-    premios:[]},
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 0}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://www.google.com/maps/place/Drakkar+Hidromiel/@-39.8309865,-73.2282931,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef81512fcdb3:0xb78bfc9ff1b44b4e!8m2!3d-39.8309865!4d-73.2257128!16s%2Fg%2F11lfzpt_vc?entry=ttu"},
 
     {id:11, nombre:"Cerveza Schenke Brüder", coordenadas: [-39.77481266517584, -73.1938453354861],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
@@ -78,24 +74,22 @@ export const puntos =[
     premios:["Bronce, German lagers Copa Cervezas de América 2022"]},
 
     {id:12, nombre:"Cerveza 3 Puentes", coordenadas: [-39.83504528204056, -73.20354547544007],
-    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/Cerveza+3+Puentes/@-39.8377206,-73.2060705,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef3990a57233:0x8505b5beb6122d7b!8m2!3d-39.8377206!4d-73.2034902!16s%2Fg%2F11flgbw9ww?entry=ttu",
-    premios:[]},
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 0}],
+    linkD:"https://www.google.com/maps/place/Cerveza+3+Puentes/@-39.8377206,-73.2060705,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef3990a57233:0x8505b5beb6122d7b!8m2!3d-39.8377206!4d-73.2034902!16s%2Fg%2F11flgbw9ww?entry=ttu"},
 
     {id:13, nombre:"La Bota Cervecera ", coordenadas: [-39.81289639386381, -73.24800577348306],
-    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/La+Bota+Cervecera/@-39.8147735,-73.2577225,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef240dea5907:0x5758e8ad55600e30!8m2!3d-39.8147735!4d-73.2551422!16s%2Fg%2F11fk3yl1bj?entry=ttu",
-    premios:[]},
+    tipos : [{tipo : "Lager", estado : 0}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://www.google.com/maps/place/La+Bota+Cervecera/@-39.8147735,-73.2577225,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef240dea5907:0x5758e8ad55600e30!8m2!3d-39.8147735!4d-73.2551422!16s%2Fg%2F11fk3yl1bj?entry=ttu"},
 
     {id:14, nombre:"Cervecería Mättig Spa", coordenadas: [-39.86179899527966, -73.19204416281889],
-    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/Cervecería+Mättig+Spa/@-39.8635937,-73.1949105,17z/data=!4m6!3m5!1s0x9615efab831f513d:0x3930b3835e522e02!8m2!3d-39.8639531!4d-73.1917121!16s%2Fg%2F11ng6h5j_0?entry=ttu",
-    premios:[]},
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://www.google.com/maps/place/Cervecería+Mättig+Spa/@-39.8635937,-73.1949105,17z/data=!4m6!3m5!1s0x9615efab831f513d:0x3930b3835e522e02!8m2!3d-39.8639531!4d-73.1917121!16s%2Fg%2F11ng6h5j_0?entry=ttu"},
 
     {id:15, nombre:"Cervecería Elfo Del Bosque", coordenadas: [-39.842699789597006, -73.20635907804606],
-    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
     linkD:"https://www.google.com/maps/place/Cervecería+Elfo+Del+Bosque/@-39.8451762,-73.20986,17z/data=!3m1!4b1!4m6!3m5!1s0x9615eee042bd5ef3:0xd51f3e12d89dfe66!8m2!3d-39.8451762!4d-73.2072797!16s%2Fg%2F11hcw0rqnz?entry=ttu",
-    premios:[]},
+    premios:["Medalla Plata Copa Cervezas de América",
+        "Medalla Oro Copa de Cervezas Tayrona"]},
 
     {id:16, nombre:"Cuello Negro",coordenadas:[-39.854937558127055, -73.32756645581802],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
@@ -110,14 +104,17 @@ export const puntos =[
     {id:17, nombre:"Cervecería Viralata",coordenadas:[-39.82461289726107, -73.22270294746943],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
     linkD:"https://www.google.com/maps/place/Cervecer%C3%ADa+Viralata/@-39.8248725,-73.2252242,17z/data=!4m14!1m7!3m6!1s0x9615ef1abb186d7f:0xa49363ee3428a2eb!2sCervecer%C3%ADa+Viralata!8m2!3d-39.8248766!4d-73.2226493!16s%2Fg%2F11vbp92hfr!3m5!1s0x9615ef1abb186d7f:0xa49363ee3428a2eb!8m2!3d-39.8248766!4d-73.2226493!16s%2Fg%2F11vbp92hfr?entry=ttu",
-    premios:[]
+    premios:["Medalla Bronce Copa Austral",
+        "Medalla Oro Copa Cervecera Mitad Del Mundo",
+        "Medalla Plata Copa de Cervezas Tayrona",
+        "Medalla Plata Copa Patagónica de Cervezas",
+        "Medalla Bronce Desafío Conquistadores"
+    ]
     },
 
     {id:18, nombre:"Barbudo Growler", coordenadas:[-39.817147697805694, -73.24293788979706],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 1}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
-    linkD:"https://www.google.com/maps/place/Barbudo+Growler/@-39.8173002,-73.2454806,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef857ee885df:0x58a1a8360dbbc1b4!8m2!3d-39.8173043!4d-73.2429057!16s%2Fg%2F11h6n4stfx?hl=es&entry=ttu",
-    premios:[]
-    }
+    linkD:"https://www.google.com/maps/place/Barbudo+Growler/@-39.8173002,-73.2454806,17z/data=!3m1!4b1!4m6!3m5!1s0x9615ef857ee885df:0x58a1a8360dbbc1b4!8m2!3d-39.8173043!4d-73.2429057!16s%2Fg%2F11h6n4stfx?hl=es&entry=ttu"}
 
 ];
 
