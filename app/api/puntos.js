@@ -150,9 +150,18 @@ export const puntos =[
     {id:25, nombre:"MYSTIKA CERVECERIA & PIZZERIA", coordenadas:[-39.83566519554538, -73.20312568496452],
     tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
     linkD:"https://maps.app.goo.gl/NM7wxM4wWQmAq7Y69"  
+    },
+
+    {id:26, nombre:"Cervecería Valdilluvia",coordenadas:[-39.834012349372394, -73.21895006095973],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://maps.app.goo.gl/dtU6ikuxQeXhteku7"
+    },
+
+    {id:27, nombre:"Coffin Brewing Co.", coordenadas:[-39.828280223062166, -73.24010706147298],
+    tipos : [{tipo : "Lager", estado : 1}, {tipo : "Sinfiltar", estado : 0}, {tipo : "Bock", estado : 1}, {tipo : "PaleAle", estado : 1}, {tipo : "Trigo", estado : 1}],
+    linkD:"https://maps.app.goo.gl/zWQaRiNF6M6vDu9Y6"
     }
     
-
 
 ];
 
